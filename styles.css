@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+
+}
+.sidebar{
+   position: absolute;
+    background-color: rgb(209, 195, 195);
+    /* width: 254px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 20px 0px;
+    font-size: 30px;
+    /* list style none means the dot at front of list is gone */
+}
+.sidebar nav li a{
+       text-decoration: none;
+       color: black;
+}
+.main{
+    /* background-color: green; */
+    margin-left: 50px;
+    width: 80vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+   
+}
+.infocontainer{
+    /* background-color: yellow; */
+    /* width: 60vw;
+    height: 30vw ;
+    margin: 80px auto; */
+    width: 70vw;
+    /* height: 29vw; */
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.devinfo{
+    /* padding: 28px; */
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif;
+    
+    
+}
+.devpic img{
+    /* cursor: pointer; */
+    margin-right: 10px;
+    border-radius: 70px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 380px;
+    /* justify-content: space-around; */
+}
+.devpic:hover{
+    transform: scale(1.1);
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+   font-size: 40px;
+}
+.about{
+      font-size: 30px;
+}
+.moreabout{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn {
+    padding: 11px 15px;
+    border-radius: 16px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(28, 152, 174);
+    color: rgb(0, 0, 0);
+}
+.btn-sm{
+    padding: 5px 15px;
+    font-size: 9px;
+    margin: 1px;
+}
+.contactform h1{
+  margin-top: 130px;
+  margin-left: -10px;
+   padding: 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    /* text-align: center; */
+    padding: 10px ;
+}
+.contactform{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 60px;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 9px;
+    color: brown;
+    margin: -12px 0;
+}
+.contactform form div input{
+    width: 600px;
+    margin: 6px 0;
+    border-radius: 4px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+}
+.blogcontainer h1{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.blogitem{
+    margin: 20px;
+}
+.aboutme{
+    margin-top: 50px;
+}
+.aboutme h2{
+    
+  font-style: oblique;
+  margin: 12px ;
+}
+.aboutme p{
+    margin: 12px ;
+
+    font-style: italic;
+}
+.skillitem{
+    display: flex  ;
+    margin-left: 10px;
+    align-items: center;
+}
+.skill{
+    width: 200px;
+    height: 6px;
+    background-color: red;
+    
+}
+.hundered{
+    width: 100px;
+    height: 6px;
+    background-color: yellow;
+    }
+.t5{
+    width: 65px;
+    height: 6px;
+    background-color: aqua;
+    }
+.others{
+    width: 50px;
+    height: 6px;
+    background-color: green;
+    
+}
+.c-plus-lang{
+    width: 120px;
+    height: 6px;
+    background-color: brown;
+}
+
+
+
+
+
+.c_lang{
+    width: 80px;
+    height: 6px;
+    background-color: darkturquoise;
+}
+.t4{
+    width:150px;
+    height: 6px;
+    background-color: pink;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 32px;
+}
+.ham{
+  width: 20px;
+  
+}
+.cross{
+width: 20px;
+margin-left: 135px;
+}
+.sidebarGo{
+    translate: -270px 0px;
+position: absolute;
+
+}
+@media only screen and (max-width: 800px) {
+    .contactform form div input{
+       width: 400px;
+    }
+    .infocontainer{
+        flex-direction: column-reverse;
+    
+    }
+    
+}
+@media only screen and (max-width: 530px) {
+    .contactform form div input{
+       width: 300px;
+    }
+    .devpic img{
+        width: 300px;
+        border-radius: 40px;
+    }
+   
+}
+@media only screen and (max-width: 430px) {
+    .contactform form div input{
+       width: 200px;
+    }
+    
+    
+    #form-check input{
+        width: 35px;
+        margin-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    .devinfo{
+        margin-top: 60px;
+        /* font-size: 5px; */
+    }
+    .contactform form div input{
+        width: 130px;
+     }
+}
+.social_media{
+   margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.twitter {
+    
+    cursor: pointer;
+    
+    width: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}.twitter_1{
+
+    height: 50px;
+    width: 50px;
+    
+}
+.twitter:hover{
+    transform: scale(1.1);
+}
+.edu_intro{
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 100px;
+}
